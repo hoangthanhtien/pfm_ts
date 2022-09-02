@@ -10,7 +10,8 @@
     "build": "tsc",
     "dev": "concurrently \"nodemon\" \"nodemon -x tsoa spec\"",
     "swagger": "tsoa spec",
-    "test": "jest"
+    "test": "jest",
+    "typeorm": "typeorm-ts-node-commonjs"
   },
   "repository": {
     "type": "git",
